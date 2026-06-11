@@ -59,7 +59,7 @@
 }
 
 :root {
-  --background: #ffffffb6;
+  --background: #ffffff;
   --foreground: #0A0A0A;
   --card: #F5F5F5;
   --card-foreground: #0A0A0A;
@@ -155,4 +155,9 @@
   html {
     @apply font-sans;
   }
+}
+
+::view-transition-old(root), ::view-transition-new(root) {
+    animation: none;
+    mix-blend-mode: normal;
 }

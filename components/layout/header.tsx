@@ -3,13 +3,18 @@
 import * as React from "react";
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
+import { useTheme } from "next-themes";
+import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
 import { cn } from "@/lib/utils";
 
 export function Header() {
   const [isScrolled, setIsScrolled] = React.useState(false);
+  const { setTheme, resolvedTheme } = useTheme();
+  const [mounted, setMounted] = React.useState(false);
 
   React.useEffect(() => {
+    setMounted(true);
+
     const handleScroll = () => {
       // Shrink header after 100px scroll
       if (window.scrollY > 100) {
@@ -79,7 +84,15 @@ export function Header() {
 
         {/* Theme Toggle & Actions */}
         <div className="flex items-center gap-4">
-          <ThemeToggle />
+          {mounted ? (
+            <AnimatedThemeToggler
+              theme={resolvedTheme as "light" | "dark"}
+              onThemeChange={(t) => setTheme(t)}
+              className="relative flex cursor-pointer h-12 w-12 items-center justify-center rounded-full bg-white/10 backdrop-blur-2xl border border-white/20 shadow-lg transition-colors hover:bg-white/20 [&_svg]:h-[1.2rem] [&_svg]:w-[1.2rem] text-void-text"
+            />
+          ) : (
+            <div className="w-12 h-12 rounded-full border border-white/20 bg-white/10" />
+          )}
         </div>
       </div>
     </header>
