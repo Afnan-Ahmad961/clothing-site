@@ -55,6 +55,7 @@
   --color-void-accent: var(--void-accent);
   --radius-liquid: 120px;
   --radius-pill: 9999px;
+  --color-sustainability: var(--sustainability);
 }
 
 :root {
@@ -97,6 +98,7 @@
   --void-surface: #F5F5F5;
   --void-text: #0A0A0A;
   --void-accent: #E5E5E5;
+  --sustainability: #10b981;
 }
 
 .dark {
@@ -138,6 +140,7 @@
   --void-surface: #171717;
   --void-text: #FFFFFF;
   --void-accent: #262626;
+  --sustainability: #10b981;
 }
 
 @layer base {
