@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <FactorySection />
       <ServicesSection />
-      <div className="h-[100rem]"></div>
+      <div className="h-[120rem]"></div>
       <SustainabilitySection />
     </main>
   );
