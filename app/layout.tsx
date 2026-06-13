@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Byon Textile | Premium Clothing Manufacturer",
-  description: "Byon Textile is a cut-to-pack garment manufacturing factory in Sialkot, Pakistan specializing in premium clothing and custom bags.",
+  title: "ZaamGrip Industries | Premium Sportswear & Sports Gloves Manufacturer",
+  description: "ZaamGrip Industries is a specialist manufacturer of gym wear, street wear, sports wear, and sports gloves — including baseball batting gloves, MMA gloves, and gym gloves — based in Sialkot, Pakistan.",
 };
 
 export default function RootLayout({

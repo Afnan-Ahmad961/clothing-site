@@ -39,8 +39,8 @@ export function Header() {
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
         {/* Logo Text */}
-        <Link href="/" className="text-2xl font-black tracking-tighter text-foreground">
-          Clothing
+        <Link href="/" className="text-2xl font-black tracking-tighter text-primary">
+          ZaamGrip
         </Link>
 
         {/* Desktop Navigation */}
