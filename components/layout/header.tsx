@@ -34,7 +34,7 @@ export function Header() {
         "fixed top-0 left-0 right-0 z-50 w-full transition-all duration-300 ease-in-out",
         isScrolled
           ? "py-3 bg-background/60 backdrop-blur-md border-b border-border/40 shadow-sm"
-          : "py-6 bg-transparent border-b border-transparent"
+          : "py-6 bg-background/40 backdrop-blur-md border-b border-border/40"
       )}
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
@@ -71,7 +71,7 @@ export function Header() {
             </div>
           </div>
 
-          <Link href="/sustainability" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
+          <Link href="/sustainability" className="text-sm font-medium text-foreground/80 hover:text-foreground text-sustainability transition-colors">
             Sustainability
           </Link>
           <Link href="/blog" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
