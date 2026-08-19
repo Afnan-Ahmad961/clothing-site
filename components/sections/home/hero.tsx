@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { ChevronRight, Globe, Leaf, Factory, Star } from "lucide-react";
 
@@ -18,24 +19,24 @@ export default function Hero() {
           className="flex flex-col items-start text-left max-w-2xl"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] tracking-tight text-foreground">
-            <span className="block text-primary italic mb-2">Sustainable</span>
-            <span className="block">Textile</span>
-            <span className="block">Manufacturing</span>
+            <span className="block text-primary italic mb-2">Global</span>
+            <span className="block">Manufacturing.</span>
+            <span className="block">Built for Performance.</span>
           </h1>
 
           <p className="mt-6 text-md md:text-lg text-muted-foreground leading-relaxed max-w-lg font-medium">
-            From fabric sourcing to final packaging, Byon Textile delivers premium cut-to-pack garment solutions for emerging and established fashion brands worldwide.
+            ZaamGrip Industries is a registered and certified manufacturer of workwear, sportswear, protective gloves, uniforms, and fashion apparel for brands, businesses, and distributors worldwide.
           </p>
 
           {/* Action Buttons */}
           <div className="mt-10 flex flex-wrap items-center gap-4">
-            <button className="group inline-flex h-14 items-center justify-center rounded-xl bg-primary px-8 text-sm font-bold text-primary-foreground transition-all hover:bg-primary/90 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(253,224,71,0.3)]">
-              Explore our Process
+            <Link href="/capabilities" className="group inline-flex h-14 items-center justify-center rounded-xl bg-primary px-8 text-sm font-bold text-primary-foreground transition-all hover:bg-primary/90 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(253,224,71,0.3)]">
+              Explore Our Products
               <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </button>
-            <button className="inline-flex h-14 items-center justify-center rounded-xl bg-secondary/50 backdrop-blur-md border border-border px-8 text-sm font-bold text-foreground transition-all hover:bg-secondary hover:scale-105 active:scale-95">
-              Contact Sales Team
-            </button>
+            </Link>
+            <Link href="/contact" className="inline-flex h-14 items-center justify-center rounded-xl bg-secondary/50 backdrop-blur-md border border-border px-8 text-sm font-bold text-foreground transition-all hover:bg-secondary hover:scale-105 active:scale-95">
+              Request a Quote
+            </Link>
           </div>
 
           {/* Reviews Section */}
@@ -106,7 +107,7 @@ export default function Hero() {
               <Globe className="w-5 h-5 text-primary" />
             </div>
             <div className="text-xs font-medium text-foreground max-w-[80px] text-center leading-tight">
-              Global Standards
+              Global Markets
             </div>
           </motion.div>
 
@@ -120,7 +121,7 @@ export default function Hero() {
               <Factory className="w-5 h-5 text-muted-foreground" />
             </div>
             <div className="text-xs font-medium text-foreground/80 max-w-[80px] text-center leading-tight">
-              Ethical Production
+              OEM & Private Label
             </div>
           </motion.div>
 
@@ -133,7 +134,7 @@ export default function Hero() {
             <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center">
               <Leaf className="w-4 h-4 text-green-500" />
             </div>
-            <span className="text-xs font-medium text-foreground pr-2">Sustainable Materials</span>
+            <span className="text-xs font-medium text-foreground pr-2">Certified Quality</span>
           </motion.div>
 
         </div>

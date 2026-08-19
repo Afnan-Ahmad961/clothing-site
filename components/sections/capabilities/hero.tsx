@@ -13,7 +13,7 @@ export default function CapabilitiesHero() {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-4xl lg:text-5xl font-black leading-tight tracking-tight"
         >
-          Our Sportswear &amp; Glove Manufacturing Capabilities
+          One Manufacturer. Multiple Product Categories.
         </motion.h1>
 
         <motion.p
@@ -22,15 +22,14 @@ export default function CapabilitiesHero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mt-8 text-base md:text-lg leading-relaxed font-medium max-w-4xl text-foreground/70 dark:text-muted-foreground"
         >
-          ZaamGrip Industries delivers complete cut-to-pack performance wear and sports glove
-          manufacturing for athletic brands, sports teams, gyms, and retailers worldwide. From
-          technical fabric sourcing and pattern development to sampling, cutting, stitching,
-          in-house printing, embroidery, and final packing — every stage of production is handled
-          under one roof. With advanced stitching lines and a monthly capacity of 25,000–30,000
-          units, we combine skilled craftsmanship, modern production systems, and strict quality
-          control across gym wear, street wear, sports jerseys, compression gear, and specialist
-          gloves. Our vertically integrated approach lets partners scale confidently while
-          maintaining premium performance standards and sustainable manufacturing practices.
+          ZaamGrip Industries manufactures workwear, protective and work gloves, sportswear, and
+          fashion apparel for brands, businesses, wholesalers, distributors, and organizations
+          worldwide. From material sourcing and sampling to cutting, stitching, in-house printing,
+          embroidery, and final packing, every stage of production is handled with skilled
+          craftsmanship, modern manufacturing, and strict quality control. Our multi-category
+          capability lets international clients source a wide range of apparel and protective
+          products from one trusted manufacturing partner — with OEM, private-label, and fully
+          customized solutions built around your specifications, branding, and quantities.
         </motion.p>
 
         <motion.div
@@ -40,10 +39,10 @@ export default function CapabilitiesHero() {
           className="mt-10"
         >
           <Link
-            href="/blog"
+            href="/contact"
             className="inline-flex h-12 items-center justify-center rounded-lg bg-primary px-8 text-sm font-bold text-primary-foreground transition-all hover:bg-primary/90 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(253,224,71,0.3)]"
           >
-            Partner Stories
+            Request a Quote
           </Link>
         </motion.div>
       </div>

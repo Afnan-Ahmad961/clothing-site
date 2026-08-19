@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 
 const capabilities = [
   {
-    title: "Sports & Street Wear",
+    title: "Workwear",
     description:
-      "From compression tights and training tops to hoodies, joggers, and performance jerseys — ZaamGrip manufactures gym wear, street wear, and sports wear with technical fabrics, precise pattern grading, and consistent fit across every production run.",
+      "Industrial uniforms, work jackets, trousers, coveralls, and utility clothing built for demanding environments. From high-visibility and safety workwear to corporate and fully customized uniforms, we manufacture durable, professional workwear to your specifications.",
     image: "/capabilities1.jpg",
     imagePosition: "right" as const,
     aspectRatio: "aspect-square",
@@ -16,9 +16,9 @@ const capabilities = [
     imageSizes: "(max-width: 1024px) 80vw, 25vw",
   },
   {
-    title: "Sports Gloves",
+    title: "Protective & Work Gloves",
     description:
-      "Specialist glove manufacturing for athletes at every level — baseball batting gloves, gym and weight-lifting gloves, and MMA gloves built for grip, durability, and protection. Custom palm padding, reinforced stitching, and brand-ready finishing on every pair.",
+      "Specialist glove manufacturing across general-purpose, coated, and heavy-duty ranges — latex, PU, and nitrile-coated, cut-resistant, impact, mechanic, leather, welding, chemical-resistant, winter, and tactical gloves engineered for grip, durability, and protection.",
     image: "/capabilities2.jpg",
     imagePosition: "left" as const,
     aspectRatio: "aspect-video",
@@ -27,15 +27,26 @@ const capabilities = [
     imageSizes: "(max-width: 1024px) 100vw, 75vw",
   },
   {
-    title: "Accessories",
+    title: "Sportswear",
     description:
-      "Complete your performance line with sports accessories manufactured to the same quality standards — hand wraps, wrist supports, training belts, and protective gear. Cut, stitched, and packed in-house for brands, teams, and retailers scaling their accessory ranges.",
+      "Sports jerseys, training sets, tracksuits, performance tops, shorts, and compression wear produced with technical fabrics and consistent fit. From gym wear and teamwear to running and cycling apparel, we deliver custom sports uniforms for teams and brands.",
     image: "/capabilities3.jpg",
     imagePosition: "right" as const,
     aspectRatio: "aspect-square",
     textColSpan: "lg:col-span-3",
     imageColSpan: "lg:col-span-1",
     imageSizes: "(max-width: 1024px) 80vw, 25vw",
+  },
+  {
+    title: "Fashion Apparel",
+    description:
+      "Premium fashion and casualwear — t-shirts, hoodies, sweatshirts, joggers, polos, jackets, varsity jackets, and streetwear. Clean construction, accurate colour matching, and brand-ready finishing for custom fashion collections at scale.",
+    image: "/service-2.png",
+    imagePosition: "left" as const,
+    aspectRatio: "aspect-video",
+    textColSpan: "lg:col-span-1",
+    imageColSpan: "lg:col-span-3",
+    imageSizes: "(max-width: 1024px) 100vw, 75vw",
   },
 ];
 

@@ -2,18 +2,18 @@
 
 import * as React from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, MapPin, MessageSquare, Mail } from "lucide-react";
+import { ArrowRight, MapPin, MessageCircle, Mail } from "lucide-react";
 
 const inputCls =
   "w-full rounded-lg border border-border bg-card px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground outline-none transition-colors focus:border-primary/50 focus:ring-2 focus:ring-primary/10";
 
 const infoItems = [
   {
-    icon: MessageSquare,
-    title: "FAQ",
-    description: "Explore our FAQ for quick, clear answers to common queries.",
-    linkLabel: "Visit FAQ",
-    href: "/contact",
+    icon: MessageCircle,
+    title: "Chat on WhatsApp",
+    description: "Message our team directly for quick answers and quotations.",
+    linkLabel: "WhatsApp us",
+    href: "https://wa.me/923001234567",
   },
   {
     icon: MapPin,

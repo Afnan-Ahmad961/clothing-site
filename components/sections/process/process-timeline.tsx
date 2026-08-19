@@ -34,7 +34,7 @@ const steps = [
     },
     {
         title: "5. Stitching & Assembly",
-        description: "With over 110 stitching machines and skilled operators, our production lines are built for both precision and scale. Each garment goes through multiple stitching stages to ensure durability, clean finishing, and structural consistency, meeting international manufacturing standards.",
+        description: "With skilled operators and dedicated production lines, our stitching and assembly is built for both precision and scale. Each product goes through multiple stages to ensure durability, clean finishing, and structural consistency, meeting international manufacturing standards.",
         layout: "single" as const,
         images: ["/factory2.jpg"]
     },
@@ -46,7 +46,7 @@ const steps = [
     },
     {
         title: "7. Finishing & Packing",
-        description: "In the final stage, garments are steam pressed, cleaned, labeled, and packed according to client requirements. We offer customized packaging solutions and ensure all products are export-ready. Efficient packing methods are used to reduce waste and maintain product presentation.",
+        description: "In the final stage, products are cleaned, labeled, and packed according to client requirements. We offer customized packaging solutions and ensure all orders are export-ready and prepared for shipment to international customers and markets.",
         layout: "single" as const,
         images: ["/process/7.png"]
     }

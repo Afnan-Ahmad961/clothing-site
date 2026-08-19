@@ -26,7 +26,7 @@ export default function ContactHero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="text-5xl font-black leading-tight tracking-tight text-foreground md:text-6xl"
         >
-          Contact us
+          Let&apos;s Build Something Together
         </motion.h1>
 
         <motion.p
@@ -35,8 +35,9 @@ export default function ContactHero() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="mx-auto mt-5 max-w-xl text-base font-medium leading-relaxed text-muted-foreground md:text-lg"
         >
-          Have questions or want to discuss a project? Reach out, and let&apos;s
-          craft the perfect solution with our tools and services.
+          Whether you are launching a new brand, expanding your product range, or
+          looking for a reliable manufacturing partner, ZaamGrip Industries is
+          ready to discuss your requirements.
         </motion.p>
       </div>
     </section>

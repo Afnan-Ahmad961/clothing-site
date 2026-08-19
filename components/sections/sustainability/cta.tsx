@@ -18,8 +18,8 @@ export default function SustainabilityCta() {
           Join our sustainability journey.
         </h2>
         <p className="mx-auto mt-5 max-w-2xl text-base font-medium leading-relaxed text-muted-foreground md:text-lg">
-          Sustainable manufacturing is a partnership. When athletic brands, gyms, teams, and
-          retailers choose ZaamGrip Industries, they choose performance gear made with sharper
+          Sustainable manufacturing is a partnership. When brands, businesses, distributors, and
+          organizations choose ZaamGrip Industries, they choose products made with sharper
           resource discipline and a long-term commitment to better production.
         </p>
         <Link

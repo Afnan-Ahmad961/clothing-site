@@ -8,30 +8,30 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const services = [
   {
-    title: "End-to-End Manufacturing",
+    title: "Multi-Category Manufacturing",
     description:
-      "From fabric sourcing and pattern development to stitching, printing, embroidery, and final packing — we manage the complete cut-to-pack process under one roof.",
+      "Source workwear, sportswear, protective gloves, uniforms, and fashion apparel from one trusted manufacturing partner — with the same standards applied across every product line.",
     image: "/service-1.png",
     icon: Box,
   },
   {
-    title: "In-House Printing & Embroidery",
+    title: "Custom & Private Label Production",
     description:
-      "Advanced screen printing, DTG, sublimation, and custom embroidery solutions ensure premium branding and finishing for every garment.",
+      "OEM, ODM, and private-label manufacturing tailored to your designs, fabrics, colours, sizing, branding, and packaging — from custom logos and embroidery to screen printing and woven labels.",
     image: "/service-2.png",
     icon: Palette,
   },
   {
     title: "Scalable Production Capacity",
     description:
-      "With 110 stitching machines and a monthly capacity of 20,000–30,000 units, we support both emerging and established fashion brands.",
+      "Efficient, controlled production processes designed to serve growing brands and established businesses alike, delivering strong value for buyers across international markets.",
     image: "/service-3.png",
     icon: TrendingUp,
   },
   {
     title: "Strict Quality Control",
     description:
-      "Every product goes through multi-stage inspection, measurement checks, and finishing control to ensure international quality standards.",
+      "Every product moves through material inspection, production monitoring, measurement checks, and final inspection to ensure it meets your specifications and represents your brand with confidence.",
     image: "/service-4.png",
     icon: CheckCircle,
   },
@@ -88,13 +88,14 @@ export default function ServicesSection() {
         {/* Left Content */}
         <div className="lg:w-[45%]">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-black tracking-tight mb-6 leading-[1.1] text-foreground">
-            Meeting Industry Demands with Precision and Sustainability
+            One Manufacturer. Multiple Product Categories.
           </h2>
           <p className="text-md md:text-lg font-medium text-muted-foreground leading-relaxed">
-            At Byon Textile, we deliver scalable, sustainable, and
-            precision-driven cut-to-pack garment manufacturing solutions. From
-            fabric sourcing to final packing, every step is handled in-house with
-            strict quality control.
+            At ZaamGrip Industries, great manufacturing is about more than
+            producing a product — it&apos;s a reliable supply-chain partnership.
+            Our capabilities let international clients source a wide range of
+            apparel and protective products from one trusted partner, from initial
+            requirements and sampling through to packaging and shipment.
           </p>
         </div>
 

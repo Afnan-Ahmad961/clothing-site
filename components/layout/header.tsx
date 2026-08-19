@@ -84,8 +84,8 @@ export function Header() {
                 <Link href="/capabilities" className="block px-4 py-3 text-sm font-medium text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-xl transition-colors">
                   Manufacturing Capabilities
                 </Link>
-                <Link href="/accreditations" className="block px-4 py-3 text-sm font-medium text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-xl transition-colors">
-                  Accreditations & Certifications
+                <Link href="/about" className="block px-4 py-3 text-sm font-medium text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-xl transition-colors">
+                  About ZaamGrip
                 </Link>
               </div>
             </div>
@@ -93,9 +93,6 @@ export function Header() {
 
           <Link href="/sustainability" className="text-sm font-medium text-foreground/80 hover:text-foreground text-sustainability transition-colors">
             Sustainability
-          </Link>
-          <Link href="/blog" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
-            Blog
           </Link>
           <Link href="/contact" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             Contact
@@ -165,8 +162,8 @@ export function Header() {
                           <Link href="/capabilities" onClick={() => setIsMobileMenuOpen(false)} className="text-lg text-foreground/60 hover:text-foreground transition-colors">
                             Manufacturing Capabilities
                           </Link>
-                          <Link href="/accreditations" onClick={() => setIsMobileMenuOpen(false)} className="text-lg text-foreground/60 hover:text-foreground transition-colors">
-                            Accreditations & Certifications
+                          <Link href="/about" onClick={() => setIsMobileMenuOpen(false)} className="text-lg text-foreground/60 hover:text-foreground transition-colors">
+                            About ZaamGrip
                           </Link>
                         </div>
                       </motion.div>
@@ -176,9 +173,6 @@ export function Header() {
 
                 <Link href="/sustainability" onClick={() => setIsMobileMenuOpen(false)} className="text-foreground/80 hover:text-foreground text-sustainability transition-colors">
                   Sustainability
-                </Link>
-                <Link href="/blog" onClick={() => setIsMobileMenuOpen(false)} className="text-foreground/80 hover:text-foreground transition-colors">
-                  Blog
                 </Link>
                 <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)} className="text-foreground/80 hover:text-foreground transition-colors">
                   Contact

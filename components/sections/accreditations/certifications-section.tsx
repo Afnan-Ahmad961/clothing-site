@@ -5,9 +5,9 @@ import { CircleCheck } from "lucide-react";
 import { AnimatedList } from "@/components/ui/animated-list";
 
 const bulletPoints = [
-  "Complete in-house production from technical fabric sourcing to cut, stitch, and final packing.",
-  "Custom gym wear, performance jerseys, and sports gloves with in-house printing and embroidery.",
-  "Strict multi-stage quality control with scalable monthly output for athletic brands and sports teams.",
+  "Complete in-house production from material sourcing to cut, stitch, and final packing.",
+  "Custom workwear, sportswear, gloves, and apparel with in-house printing and embroidery.",
+  "Strict multi-stage quality control with scalable output for brands, businesses, and distributors.",
 ];
 
 const certifications = [
