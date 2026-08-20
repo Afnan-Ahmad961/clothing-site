@@ -63,40 +63,98 @@ export default function AboutHero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="mt-6 text-base md:text-lg leading-relaxed font-medium text-muted-foreground"
           >
-            At ZaamGrip Industries, we believe great manufacturing is more than producing a
-            product — it is about creating a reliable supply-chain partnership. Our capabilities
-            cover multiple product categories, allowing international clients to source a wide
-            range of apparel and protective products from one trusted manufacturing partner. Our
-            experienced team works closely with customers from initial requirements and sampling
-            through manufacturing, quality inspection, packaging, and shipment preparation.
+            At ZaamGrip Industries, great manufacturing means being a reliable supply-chain partner. 
+            We offer end-to-end solutions—from sampling and production to final packaging—allowing 
+            global brands to source premium athletic apparel and protective gear under one roof.
           </motion.p>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">
-          {values.map((value, index) => {
-            const Icon = value.icon;
-            return (
-              <motion.article
-                key={value.title}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, margin: "-80px" }}
-                transition={{ duration: 0.5, delay: index * 0.06 }}
-                variants={fadeIn}
-                className="rounded-2xl border border-border bg-card p-6"
-              >
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary/10 text-primary">
-                  <Icon className="h-5 w-5" />
-                </div>
-                <h2 className="mt-5 text-lg font-black tracking-tight text-foreground">
-                  {value.title}
-                </h2>
-                <p className="mt-2 text-sm font-medium leading-relaxed text-muted-foreground">
-                  {value.copy}
-                </p>
-              </motion.article>
-            );
-          })}
+        {/* Desktop Connected Values */}
+        <div className="hidden md:block relative mt-40">
+          {/* Main connection line */}
+          <div className="absolute top-12 left-0 right-0 h-1 bg-gradient-to-r from-primary/10 via-primary to-primary/10"></div>
+
+          <div className="relative flex justify-between">
+            {values.map((value, index) => {
+              const Icon = value.icon;
+              return (
+                <motion.div
+                  key={value.title}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, margin: "-80px" }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  variants={fadeIn}
+                  className="flex flex-col items-center flex-1 group"
+                >
+                  {/* Icon circle */}
+                  <div className="relative z-10 mb-8 flex flex-col items-center">
+                    <div className="w-24 h-24 rounded-full bg-background border-4 border-border group-hover:border-primary flex items-center justify-center shadow-sm group-hover:shadow-[0_0_20px_rgba(253,224,71,0.2)] transition-all duration-300 group-hover:-translate-y-2">
+                      <Icon className="w-10 h-10 text-muted-foreground group-hover:text-primary transition-colors stroke-[1.5]" />
+                    </div>
+
+                    {/* Step number badge */}
+                    <div className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-primary flex items-center justify-center font-bold text-sm text-primary-foreground shadow-md">
+                      {index + 1}
+                    </div>
+                  </div>
+
+                  {/* Info */}
+                  <div className="text-center space-y-3 max-w-[14rem] transition-transform duration-300 group-hover:-translate-y-1">
+                    <h3 className="text-xl font-black text-foreground">
+                      {value.title}
+                    </h3>
+                    <p className="text-sm font-medium text-muted-foreground leading-relaxed px-2">
+                      {value.copy}
+                    </p>
+                  </div>
+                </motion.div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Mobile Connected Values */}
+        <div className="md:hidden mt-28">
+          <div className="relative space-y-8 pl-8">
+            {/* Mobile connection line */}
+            <div className="absolute left-3 top-0 bottom-0 w-1 bg-gradient-to-b from-primary/10 via-primary to-primary/10"></div>
+
+            {values.map((value, index) => {
+              const Icon = value.icon;
+              return (
+                <motion.div
+                  key={value.title}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, margin: "-50px" }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  variants={fadeIn}
+                  className="relative group"
+                >
+                  {/* Mobile icon circle */}
+                  <div className="absolute -left-10 top-0 w-8 h-8 rounded-full bg-background border-2 border-primary flex items-center justify-center shadow-md z-10">
+                    <Icon className="w-4 h-4 text-primary stroke-[2]" />
+                  </div>
+
+                  {/* Mobile info card */}
+                  <div className="bg-card border border-border rounded-xl p-5 shadow-sm group-hover:shadow-md transition-all duration-300">
+                    <div className="flex items-center gap-3 mb-2">
+                      <div className="font-black text-primary/30 text-3xl">
+                        0{index + 1}
+                      </div>
+                      <h3 className="text-lg font-black text-foreground">
+                        {value.title}
+                      </h3>
+                    </div>
+                    <p className="text-muted-foreground font-medium text-sm ml-12">
+                      {value.copy}
+                    </p>
+                  </div>
+                </motion.div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>
