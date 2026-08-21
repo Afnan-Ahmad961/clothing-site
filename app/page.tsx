@@ -7,11 +7,10 @@ import ContactFormSection from "@/components/sections/home/contact-form-section"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background flex flex-col relative overflow-hidden pt-24">
+    <main className="min-h-screen bg-background flex flex-col relative overflow-x-clip pt-24">
       <Hero />
       <FactorySection />
       <ServicesSection />
-      <div className="h-[120rem]"></div>
       <SustainabilitySection />
       <ImageCarosal />
       <ContactFormSection />

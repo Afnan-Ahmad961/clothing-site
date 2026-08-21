@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { useTheme } from "next-themes";
 import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
@@ -54,13 +55,21 @@ export function Header() {
       )}
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between relative z-50">
-        {/* Logo Text */}
+        {/* Logo */}
         <Link
           href="/"
-          className="text-2xl font-black tracking-tighter text-primary"
+          className="flex items-center"
+          aria-label="ZaamGrip — home"
           onClick={() => setIsMobileMenuOpen(false)}
         >
-          ZaamGrip
+          <Image
+            src="/logo-trimmed.png"
+            alt="ZaamGrip"
+            width={334}
+            height={76}
+            priority
+            className="h-7 w-auto md:h-8"
+          />
         </Link>
 
         {/* Desktop Navigation */}
