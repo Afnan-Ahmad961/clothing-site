@@ -34,7 +34,7 @@ export default function Hero() {
               Explore Our Products
               <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
-            <Link href="/contact" className="inline-flex h-14 items-center justify-center rounded-xl bg-secondary/50 backdrop-blur-md border border-border px-8 text-sm font-bold text-foreground transition-all hover:bg-secondary hover:scale-105 active:scale-95">
+            <Link href="/request-a-quote" className="inline-flex h-14 items-center justify-center rounded-xl bg-secondary/50 backdrop-blur-md border border-border px-8 text-sm font-bold text-foreground transition-all hover:bg-secondary hover:scale-105 active:scale-95">
               Request a Quote
             </Link>
           </div>

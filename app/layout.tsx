@@ -51,6 +51,7 @@ export default function RootLayout({
         >
           <Header />
           {children}
+          <WhatsAppButton />
         </ThemeProvider>
       </body>
     </html>

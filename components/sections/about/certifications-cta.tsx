@@ -36,7 +36,7 @@ export default function CertificationsCta() {
             View Our Certifications
           </Link>
           <Link
-            href="/contact"
+            href="/request-a-quote"
             className="group inline-flex h-12 items-center justify-center rounded-xl bg-primary px-7 text-sm font-bold text-primary-foreground transition-all hover:bg-primary/90 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(253,224,71,0.3)]"
           >
             Request a Quote
