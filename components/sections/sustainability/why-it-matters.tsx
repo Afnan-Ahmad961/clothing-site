@@ -5,27 +5,27 @@ import { BadgeCheck, Blocks, Factory, Sparkles } from "lucide-react";
 
 const reasons = [
   {
-    title: "End-to-End Sportswear Manufacturing",
+    title: "End-to-End Manufacturing",
     copy:
-      "From performance fabric sourcing and pattern development to cutting, stitching, finishing, and packing, we manage gym wear, street wear, and team sportswear under one roof.",
+      "From material sourcing and pattern development to cutting, stitching, finishing, and packing, we manage workwear, sportswear, gloves, and apparel under one roof.",
     icon: Blocks,
   },
   {
     title: "In-House Printing & Embroidery",
     copy:
-      "Screen printing, sublimation, heat transfer, and custom embroidery give sports teams, gyms, and athletic brands sharp branding across jerseys, hoodies, joggers, and training tops.",
+      "Screen printing, heat transfer, and custom embroidery give brands, businesses, and organizations sharp, consistent branding across every product category.",
     icon: Sparkles,
   },
   {
     title: "Scalable Production Capacity",
     copy:
-      "Structured production planning supports growing orders for compression tights, tracksuits, street wear drops, baseball batting gloves, MMA gloves, and weight-lifting gloves.",
+      "Structured production planning supports growing orders across industrial workwear, team sportswear, protective gloves, and custom fashion collections.",
     icon: Factory,
   },
   {
     title: "Strict Quality Control",
     copy:
-      "Every performance garment and protective glove moves through measurement checks, stitch inspection, print review, and finishing control before it reaches brand partners.",
+      "Every garment and protective product moves through material inspection, measurement checks, and finishing control before it reaches our partners.",
     icon: BadgeCheck,
   },
 ];
@@ -43,13 +43,13 @@ export default function WhyItMatters() {
             className="lg:sticky lg:top-28"
           >
             <h2 className="max-w-lg text-2xl font-black leading-[1.12] text-foreground md:text-3xl">
-              Meeting athletic product demands with precision and sustainability
+              Meeting global product demands with precision and sustainability
             </h2>
             <p className="mt-8 max-w-xl text-base font-medium leading-relaxed text-muted-foreground md:text-lg">
-              At ZaamGrip Industries, we deliver scalable, responsible cut-to-pack manufacturing
-              for sports teams, gym brands, retailers, and performance labels. From technical
-              fabrics to protective glove components, every stage is handled with disciplined
-              quality control and cleaner production choices.
+              At ZaamGrip Industries, we deliver scalable, responsible manufacturing for brands,
+              businesses, distributors, and organizations worldwide. From technical fabrics to
+              protective glove components, every stage is handled with disciplined quality control
+              and cleaner production choices.
             </p>
           </motion.div>
 

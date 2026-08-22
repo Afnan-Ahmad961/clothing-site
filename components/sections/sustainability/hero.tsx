@@ -30,7 +30,7 @@ export default function SustainabilityHero() {
           <h1 className="max-w-5xl text-4xl font-black leading-[0.98] tracking-tight text-foreground md:text-5xl lg:text-6xl">
             Sustainable{" "}
             <span className="bg-gradient-to-r from-sustainability to-sustainability/70 bg-clip-text text-transparent">
-              Sportswear
+              Global
             </span>
             <br />
             <span className="bg-gradient-to-r from-sustainability to-sustainability/70 bg-clip-text text-transparent">
@@ -38,11 +38,10 @@ export default function SustainabilityHero() {
             </span>
           </h1>
           <p className="mt-10 max-w-6xl font-medium leading-loose text-muted-foreground md:text-lg">
-            At ZaamGrip Industries, sustainability is woven into every performance jersey,
-            compression tight, hoodie, tracksuit, batting glove, MMA glove, and gym glove we
-            produce. Through responsible materials, careful resource control, and continuous
-            process improvement, we help athletic brands build high-performance products with
-            lower-impact manufacturing.
+            At ZaamGrip Industries, sustainability is woven into every product we manufacture —
+            workwear, sportswear, protective gloves, uniforms, and fashion apparel. Through
+            responsible materials, careful resource control, and continuous process improvement,
+            we help brands and businesses build quality products with lower-impact manufacturing.
           </p>
         </motion.div>
 

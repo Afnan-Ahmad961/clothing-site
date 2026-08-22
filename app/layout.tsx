@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/layout/header";
+import { WhatsAppButton } from "@/components/layout/whatsapp-button";
 
 const inter = Inter({
   variable: "--font-sans",
@@ -10,8 +11,24 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ZaamGrip Industries | Premium Sportswear & Sports Gloves Manufacturer",
-  description: "ZaamGrip Industries is a specialist manufacturer of gym wear, street wear, sports wear, and sports gloves — including baseball batting gloves, MMA gloves, and gym gloves — based in Sialkot, Pakistan.",
+  title:
+    "ZaamGrip Industries | Global Workwear, Sportswear, Gloves & Apparel Manufacturer",
+  description:
+    "ZaamGrip Industries is a certified global manufacturer of workwear, sportswear, protective gloves and fashion apparel, offering OEM, private-label and customized manufacturing solutions for clients worldwide.",
+  keywords: [
+    "Workwear Manufacturer",
+    "Sportswear Manufacturer",
+    "Gloves Manufacturer",
+    "Apparel Manufacturer",
+    "Protective Gloves Manufacturer",
+    "Custom Workwear Manufacturer",
+    "Custom Sportswear Manufacturer",
+    "Fashion Apparel Manufacturer",
+    "OEM Clothing Manufacturer",
+    "Private Label Manufacturer",
+    "Industrial Gloves Manufacturer",
+    "Global Apparel Manufacturer",
+  ],
 };
 
 export default function RootLayout({
@@ -34,6 +51,7 @@ export default function RootLayout({
         >
           <Header />
           {children}
+          <WhatsAppButton />
         </ThemeProvider>
       </body>
     </html>

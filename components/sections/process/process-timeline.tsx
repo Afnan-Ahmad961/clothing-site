@@ -9,46 +9,40 @@ gsap.registerPlugin(ScrollTrigger);
 
 const steps = [
     {
-        title: "1. Fabric Sourcing",
-        description: "We source high-quality fabrics from a global network of trusted suppliers, including cotton, polyester, denim, and blended materials. Each fabric undergoes strict testing for durability, colorfastness, and shrinkage. We also prioritize responsibly sourced and sustainable materials wherever possible to reduce environmental impact without compromising quality.",
+        title: "01. Requirements",
+        description: "It starts with your brief. Share your product specifications, designs, quantities, materials, branding, and any other requirements. Our team reviews everything up front so your project is understood clearly before a single sample is made.",
         layout: "single" as const,
-        images: ["/process/fabric_sourcing.png"]
+        images: ["/service-1.png"]
     },
     {
-        title: "2. Pattern Making & Sampling",
-        description: "Our team develops precise digital patterns and produces samples for client approval before bulk production begins. This stage ensures accurate sizing, proper fit, and design validation. Iterations are handled efficiently to meet brand specifications while minimizing material waste during sampling.",
+        title: "02. Development & Sampling",
+        description: "Our team develops samples according to your specifications for review and approval. This stage validates sizing, fit, materials, and finishing, with efficient iterations until the sample matches exactly what you need for production.",
         layout: "double" as const,
-        images: ["/service-1.png", "/service-2.png"]
+        images: ["/service-2.png", "/process/fabric_sourcing.png"]
     },
     {
-        title: "3. Fabric Cutting",
-        description: "Using advanced marker planning and precision cutting techniques, we optimize fabric utilization and maintain consistency across all units. Our process reduces excess waste while ensuring accuracy in every cut, supporting both efficiency and sustainability in production.",
+        title: "03. Production",
+        description: "Once your sample is approved, manufacturing begins under controlled production processes. Skilled operators and organized production lines keep quality and consistency intact from the first unit to the last across every product category.",
         layout: "single" as const,
         images: ["/factory1.jpg"]
     },
     {
-        title: "4. Printing & Embroidery",
-        description: "We provide in-house printing and embroidery services, including screen printing, sublimation, heat transfer, and detailed embroidery work. By keeping this process internal, we ensure consistent quality, faster turnaround times, and better control over environmentally responsible printing practices.",
-        layout: "double" as const,
-        images: ["/service-3.png", "/service-4.png"]
-    },
-    {
-        title: "5. Stitching & Assembly",
-        description: "With over 110 stitching machines and skilled operators, our production lines are built for both precision and scale. Each garment goes through multiple stitching stages to ensure durability, clean finishing, and structural consistency, meeting international manufacturing standards.",
-        layout: "single" as const,
-        images: ["/factory2.jpg"]
-    },
-    {
-        title: "6. Quality Control",
-        description: "Quality is maintained through strict inspections at every stage of production. Our quality control process includes inline checks, measurement verification, and final audits. This ensures every product meets client specifications and global quality standards before moving to the next stage.",
+        title: "04. Quality Control",
+        description: "Products undergo quality checks throughout production and before final dispatch. Material inspection, workmanship checks, measurement verification, and final audits ensure every product meets your specifications and our standards.",
         layout: "double" as const,
         images: ["/process/6A.jpg", "/process/6B.png"]
     },
     {
-        title: "7. Finishing & Packing",
-        description: "In the final stage, garments are steam pressed, cleaned, labeled, and packed according to client requirements. We offer customized packaging solutions and ensure all products are export-ready. Efficient packing methods are used to reduce waste and maintain product presentation.",
+        title: "05. Packaging",
+        description: "Products are packed according to your requirements, including customized packaging where requested. Every order is labeled, protected, and prepared to represent your brand and arrive export-ready.",
         layout: "single" as const,
         images: ["/process/7.png"]
+    },
+    {
+        title: "06. Ready for Global Delivery",
+        description: "Finished orders are prepared for shipment to international customers and markets. From our manufacturing facility to markets around the world, your products are ready to move.",
+        layout: "single" as const,
+        images: ["/factory3.jpg"]
     }
 ];
 

@@ -8,7 +8,7 @@ import WhyItMatters from "@/components/sections/sustainability/why-it-matters";
 export const metadata: Metadata = {
   title: "Sustainability | ZaamGrip Industries",
   description:
-    "Explore ZaamGrip Industries' sustainability initiatives for responsible sportswear, gym wear, street wear, and sports glove manufacturing.",
+    "Explore ZaamGrip Industries' sustainability initiatives for responsible workwear, sportswear, protective glove, and fashion apparel manufacturing.",
 };
 
 export default function SustainabilityPage() {

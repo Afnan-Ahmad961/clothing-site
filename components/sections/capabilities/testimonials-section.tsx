@@ -13,8 +13,8 @@ const testimonials = [
   },
   {
     name: "Sofia Summan",
-    username: "Procurement, IronCore Gyms",
-    body: "Training tops, hoodies, and joggers — all produced on schedule with consistent sizing across every drop. A reliable manufacturing partner for our gym network.",
+    username: "Procurement, Meridian Industrial",
+    body: "Coveralls, hi-vis jackets, and work trousers for our whole crew — durable construction, accurate sizing, and delivered on schedule. A reliable workwear manufacturing partner.",
     img: "https://avatar.vercel.sh/sofia",
   },
   {
@@ -25,14 +25,14 @@ const testimonials = [
   },
   {
     name: "Rehan Imran",
-    username: "Director, StrikeForce MMA",
-    body: "From MMA gloves to hand wraps, ZaamGrip understood the safety specs our promotion requires. Fast sampling and clean finishing on every batch.",
+    username: "Safety Manager, BuildRight Contractors",
+    body: "Cut-resistant and impact gloves that actually hold up on site. ZaamGrip understood the protection specs we needed and delivered consistent quality batch after batch.",
     img: "https://avatar.vercel.sh/yuki",
   },
   {
     name: "Samiullah Khan",
     username: "Head of Product, UrbanStride",
-    body: "Our street wear capsule needed premium construction at volume. ZaamGrip delivered clean embroidery, accurate colour matching, and on-time cut-to-pack.",
+    body: "Our streetwear capsule — hoodies, joggers, and varsity jackets — needed premium construction at volume. ZaamGrip delivered clean embroidery, accurate colour matching, and on-time production.",
     img: "https://avatar.vercel.sh/chloe",
   },
   {
@@ -112,8 +112,9 @@ export default function TestimonialsSection() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mt-4 text-base md:text-lg text-muted-foreground leading-relaxed font-medium"
         >
-          Athletic brands, sports teams, gyms, and retailers trust ZaamGrip for
-          performance wear and specialist glove manufacturing at scale.
+          Brands, businesses, distributors, and organizations worldwide trust
+          ZaamGrip for workwear, sportswear, protective gloves, and apparel
+          manufacturing at scale.
         </motion.p>
       </div>
 

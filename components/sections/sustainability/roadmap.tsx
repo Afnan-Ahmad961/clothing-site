@@ -9,9 +9,9 @@ const initiatives = [
     year: "2024",
     label: "Achieved",
     title: "Achieved Carbon Neutral Operations",
-    focus: "Verified accountability across sportswear and glove production",
+    focus: "Verified accountability across all product categories",
     copy:
-      "Offset 100% of operational emissions through renewable energy transition planning and verified offset programs across gym wear, street wear, team sportswear, and protective glove manufacturing.",
+      "Offset 100% of operational emissions through renewable energy transition planning and verified offset programs across workwear, sportswear, protective glove, and apparel manufacturing.",
     proof: [
       "Order-level emissions tracking",
       "Verified offset programs",
@@ -25,7 +25,7 @@ const initiatives = [
     title: "Target: 50% Renewable Energy",
     focus: "Cleaner power for cutting, stitching, printing, and assembly",
     copy:
-      "Expand solar capacity and sign long-term renewable energy agreements to support lower-impact production for jerseys, hoodies, joggers, compression tights, batting gloves, and MMA gloves.",
+      "Expand solar capacity and sign long-term renewable energy agreements to support lower-impact production for workwear, uniforms, sportswear, gloves, and fashion apparel.",
     proof: [
       "Solar capacity expansion",
       "Renewable energy agreements",
@@ -53,7 +53,7 @@ const initiatives = [
     title: "Vision: 100% Renewable Energy",
     focus: "Renewable-powered performance manufacturing at full scale",
     copy:
-      "Transition the entire manufacturing operation to renewable power sources, giving sports teams, gym brands, retailers, and performance labels a cleaner sourcing partner.",
+      "Transition the entire manufacturing operation to renewable power sources, giving brands, businesses, distributors, and organizations a cleaner sourcing partner.",
     proof: [
       "Renewable-powered facilities",
       "Lower-impact brand programs",

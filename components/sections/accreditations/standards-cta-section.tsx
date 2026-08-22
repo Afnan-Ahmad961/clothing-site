@@ -8,19 +8,19 @@ const standards = [
   {
     title: "International Standards",
     description:
-      "All certifications align with international ISO and performance-wear manufacturing standards.",
+      "All certifications align with international ISO and apparel manufacturing standards.",
     icon: Award,
   },
   {
     title: "Regular Audits",
     description:
-      "Independent third-party audits ensure continuous compliance across sportswear and glove production.",
+      "Independent third-party audits ensure continuous compliance across every product category.",
     icon: ShieldCheck,
   },
   {
     title: "Continuous Improvement",
     description:
-      "We maintain and enhance our quality standards for athletes, gyms, and sports teams year after year.",
+      "We maintain and enhance our quality standards for clients and businesses worldwide, year after year.",
     icon: BadgeCheck,
   },
 ];
@@ -89,7 +89,7 @@ export default function StandardsCtaSection() {
             </h2>
             <p className="mx-auto mt-6 max-w-3xl text-base font-medium leading-relaxed text-muted-foreground">
               Our certifications demonstrate our commitment to quality, sustainability, and
-              ethical practices for performance apparel and specialist sports gloves.
+              ethical practices across workwear, sportswear, protective gloves, and apparel.
             </p>
             <Link
               href="/contact"

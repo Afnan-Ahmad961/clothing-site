@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { useTheme } from "next-themes";
 import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
@@ -54,13 +55,21 @@ export function Header() {
       )}
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between relative z-50">
-        {/* Logo Text */}
+        {/* Logo */}
         <Link
           href="/"
-          className="text-2xl font-black tracking-tighter text-primary"
+          className="flex items-center"
+          aria-label="ZaamGrip — home"
           onClick={() => setIsMobileMenuOpen(false)}
         >
-          ZaamGrip
+          <Image
+            src="/logo-trimmed.png"
+            alt="ZaamGrip"
+            width={334}
+            height={76}
+            priority
+            className="h-7 w-auto md:h-8"
+          />
         </Link>
 
         {/* Desktop Navigation */}
@@ -84,8 +93,8 @@ export function Header() {
                 <Link href="/capabilities" className="block px-4 py-3 text-sm font-medium text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-xl transition-colors">
                   Manufacturing Capabilities
                 </Link>
-                <Link href="/accreditations" className="block px-4 py-3 text-sm font-medium text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-xl transition-colors">
-                  Accreditations & Certifications
+                <Link href="/about" className="block px-4 py-3 text-sm font-medium text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-xl transition-colors">
+                  About ZaamGrip
                 </Link>
               </div>
             </div>
@@ -93,9 +102,6 @@ export function Header() {
 
           <Link href="/sustainability" className="text-sm font-medium text-foreground/80 hover:text-foreground text-sustainability transition-colors">
             Sustainability
-          </Link>
-          <Link href="/blog" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
-            Blog
           </Link>
           <Link href="/contact" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             Contact
@@ -165,8 +171,8 @@ export function Header() {
                           <Link href="/capabilities" onClick={() => setIsMobileMenuOpen(false)} className="text-lg text-foreground/60 hover:text-foreground transition-colors">
                             Manufacturing Capabilities
                           </Link>
-                          <Link href="/accreditations" onClick={() => setIsMobileMenuOpen(false)} className="text-lg text-foreground/60 hover:text-foreground transition-colors">
-                            Accreditations & Certifications
+                          <Link href="/about" onClick={() => setIsMobileMenuOpen(false)} className="text-lg text-foreground/60 hover:text-foreground transition-colors">
+                            About ZaamGrip
                           </Link>
                         </div>
                       </motion.div>
@@ -176,9 +182,6 @@ export function Header() {
 
                 <Link href="/sustainability" onClick={() => setIsMobileMenuOpen(false)} className="text-foreground/80 hover:text-foreground text-sustainability transition-colors">
                   Sustainability
-                </Link>
-                <Link href="/blog" onClick={() => setIsMobileMenuOpen(false)} className="text-foreground/80 hover:text-foreground transition-colors">
-                  Blog
                 </Link>
                 <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)} className="text-foreground/80 hover:text-foreground transition-colors">
                   Contact

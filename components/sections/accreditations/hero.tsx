@@ -38,8 +38,8 @@ export default function AccreditationsHero() {
             className="mx-auto mt-6 max-w-2xl text-base font-medium leading-relaxed text-muted-foreground md:text-lg"
           >
             Certified excellence across quality, environmental responsibility, and worker
-            safety — ensuring every gym wear line, sports jersey, and specialist glove meets
-            the standards athletic brands and sports teams demand.
+            safety — ensuring every workwear line, sportswear order, protective glove, and
+            apparel collection meets the standards our global clients demand.
           </motion.p>
 
           <motion.div
