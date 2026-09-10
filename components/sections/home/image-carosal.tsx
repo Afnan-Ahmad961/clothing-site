@@ -4,17 +4,17 @@ import {
 } from "@/components/ui/scroll-based-velocity"
 
 const IMAGES_ROW_A = [
-    "carosal-images/1.jpg",
-    "carosal-images/2.jpg",
-    "carosal-images/3.jpg",
-    "carosal-images/4.jpg",
+    "/images/1.jpg",
+    "/images/2.jpg",
+    "/images/3.jpg",
+    "/images/4.jpg",
 ]
 
 const IMAGES_ROW_B = [
-    "carosal-images/5.jpg",
-    "carosal-images/6.jpg",
-    "carosal-images/7.jpg",
-    "carosal-images/8.jpg",
+    "/images/5.jpg",
+    "/images/6.jpg",
+    "/images/7.jpg",
+    "/images/8.jpg",
 ]
 
 export function ImageCarosal() {

@@ -34,7 +34,7 @@ export default function StandardsCtaSection() {
   return (
     <section className="border-t border-border/20 bg-background py-20 md:py-28">
       <div className="container mx-auto max-w-7xl px-6 md:px-12">
-        <div className="rounded-3xl border-t px-6 py-14 md:px-8 md:py-20">
+        <div>
           <div className="grid grid-cols-1 gap-12 text-center md:grid-cols-3 md:gap-8 lg:gap-12">
             {standards.map((item, index) => {
               const Icon = item.icon;
