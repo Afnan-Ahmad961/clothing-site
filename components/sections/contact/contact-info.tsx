@@ -4,22 +4,23 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 
-// TODO: Replace placeholders with ZaamGrip's official phone / WhatsApp number.
-const WHATSAPP_NUMBER = "923001234567";
-const PHONE_DISPLAY = "+92 300 1234567";
+const WHATSAPP_NUMBER = "923187268147";
+const WHATSAPP_DISPLAY = "+92 318 7268147";
+const PHONE_NUMBER = "923338763721";
+const PHONE_DISPLAY = "+92 333 8763721";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 const items = [
   {
     icon: Mail,
     title: "Email",
-    value: "contact@zaamgrip.com",
-    href: "mailto:contact@zaamgrip.com",
+    value: "info@zaamgripindustries.com",
+    href: "mailto:info@zaamgripindustries.com",
   },
   {
     icon: MessageCircle,
     title: "WhatsApp",
-    value: "Message our team directly",
+    value: WHATSAPP_DISPLAY,
     href: WHATSAPP_URL,
     external: true,
   },
@@ -27,13 +28,13 @@ const items = [
     icon: Phone,
     title: "Phone",
     value: PHONE_DISPLAY,
-    href: `tel:${WHATSAPP_NUMBER}`,
+    href: `tel:+${PHONE_NUMBER}`,
   },
   {
     icon: MapPin,
     title: "Factory Address",
-    value: "Opposite Mak Palace, Hajji Pura Road, 51310 Sialkot, Pakistan",
-    href: "https://maps.google.com/?q=Hajji+Pura+Road+Sialkot",
+    value: "Defence Road, Opposite WAPDA Grid Station, Sialkot 51310, Pakistan",
+    href: "https://maps.google.com/?q=Defence+Road+Opposite+WAPDA+Grid+Station+Sialkot+51310+Pakistan",
     external: true,
   },
 ];
@@ -64,11 +65,11 @@ export default function ContactInfo() {
                 <div className="mt-0.5 flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">
                   <Icon className="h-5 w-5" />
                 </div>
-                <div>
+                <div className="min-w-0">
                   <h3 className="text-xs font-black uppercase tracking-[0.18em] text-muted-foreground">
                     {item.title}
                   </h3>
-                  <p className="mt-2 text-base font-semibold leading-relaxed text-foreground transition-colors group-hover:text-primary">
+                  <p className="mt-2 break-words text-base font-semibold leading-relaxed text-foreground transition-colors group-hover:text-primary">
                     {item.value}
                   </p>
                 </div>

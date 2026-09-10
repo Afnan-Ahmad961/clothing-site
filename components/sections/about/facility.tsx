@@ -35,7 +35,7 @@ export default function AboutFacility() {
             className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl border border-border shadow-2xl"
           >
             <Image
-              src="/factory2.jpg"
+              src="/images/factory2.jpg"
               alt="ZaamGrip manufacturing facility"
               fill
               className="object-cover"

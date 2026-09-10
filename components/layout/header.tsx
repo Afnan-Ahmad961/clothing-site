@@ -13,6 +13,7 @@ export function Header() {
   const [isScrolled, setIsScrolled] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const [isMobileAboutOpen, setIsMobileAboutOpen] = React.useState(false);
+  const [isAboutOpen, setIsAboutOpen] = React.useState(false);
   const { setTheme, resolvedTheme } = useTheme();
   const [mounted, setMounted] = React.useState(false);
 
@@ -63,7 +64,7 @@ export function Header() {
           onClick={() => setIsMobileMenuOpen(false)}
         >
           <Image
-            src="/logo-trimmed.png"
+            src="/images/logo-trimmed.png"
             alt="ZaamGrip"
             width={334}
             height={76}
@@ -79,21 +80,41 @@ export function Header() {
           </Link>
 
           {/* About Dropdown */}
-          <div className="relative group">
-            <button className="flex items-center gap-1 text-sm font-medium text-foreground/80 hover:text-foreground transition-colors py-2">
+          <div
+            className="relative"
+            onMouseEnter={() => setIsAboutOpen(true)}
+            onMouseLeave={() => setIsAboutOpen(false)}
+          >
+            <button
+              type="button"
+              onClick={() => setIsAboutOpen((v) => !v)}
+              aria-expanded={isAboutOpen}
+              aria-haspopup="true"
+              className="flex items-center gap-1 text-sm font-medium text-foreground/80 hover:text-foreground transition-colors py-2"
+            >
               About
-              <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
+              <ChevronDown className={cn("w-4 h-4 transition-transform duration-200", isAboutOpen && "rotate-180")} />
             </button>
 
-            <div className="absolute top-full left-0 mt-2 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0">
+            <div
+              className={cn(
+                "absolute top-full left-0 pt-2 w-64 transition-all duration-200",
+                isAboutOpen
+                  ? "opacity-100 visible translate-y-0"
+                  : "opacity-0 invisible translate-y-2 pointer-events-none"
+              )}
+            >
               <div className="p-2 rounded-2xl bg-background/80 backdrop-blur-xl border border-border/50 shadow-xl flex flex-col gap-1">
-                <Link href="/process" className="block px-4 py-3 text-sm font-medium text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-xl transition-colors">
+                <Link href="/process" onClick={() => setIsAboutOpen(false)} className="block px-4 py-3 text-sm font-medium text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-xl transition-colors">
                   Our Process
                 </Link>
-                <Link href="/capabilities" className="block px-4 py-3 text-sm font-medium text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-xl transition-colors">
+                <Link href="/capabilities" onClick={() => setIsAboutOpen(false)} className="block px-4 py-3 text-sm font-medium text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-xl transition-colors">
                   Manufacturing Capabilities
                 </Link>
-                <Link href="/about" className="block px-4 py-3 text-sm font-medium text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-xl transition-colors">
+                <Link href="/accreditations" onClick={() => setIsAboutOpen(false)} className="block px-4 py-3 text-sm font-medium text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-xl transition-colors">
+                  Accreditations & Certifications
+                </Link>
+                <Link href="/about" onClick={() => setIsAboutOpen(false)} className="block px-4 py-3 text-sm font-medium text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-xl transition-colors">
                   About ZaamGrip
                 </Link>
               </div>
@@ -170,6 +191,9 @@ export function Header() {
                           </Link>
                           <Link href="/capabilities" onClick={() => setIsMobileMenuOpen(false)} className="text-lg text-foreground/60 hover:text-foreground transition-colors">
                             Manufacturing Capabilities
+                          </Link>
+                          <Link href="/accreditations" onClick={() => setIsMobileMenuOpen(false)} className="text-lg text-foreground/60 hover:text-foreground transition-colors">
+                            Accreditations & Certifications
                           </Link>
                           <Link href="/about" onClick={() => setIsMobileMenuOpen(false)} className="text-lg text-foreground/60 hover:text-foreground transition-colors">
                             About ZaamGrip

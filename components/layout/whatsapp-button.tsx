@@ -3,9 +3,9 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 
-// TODO: Replace with ZaamGrip's official WhatsApp business number
+// ZaamGrip's official WhatsApp business number
 // (country code + number, digits only — no "+", spaces, or dashes).
-const WHATSAPP_NUMBER = "923001234567";
+const WHATSAPP_NUMBER = "923187268147";
 
 const PREFILLED_MESSAGE =
   "Hello ZaamGrip Industries, I am interested in your manufacturing services. I would like to discuss my product requirements and request a quotation.";

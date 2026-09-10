@@ -12,37 +12,37 @@ const steps = [
         title: "01. Requirements",
         description: "It starts with your brief. Share your product specifications, designs, quantities, materials, branding, and any other requirements. Our team reviews everything up front so your project is understood clearly before a single sample is made.",
         layout: "single" as const,
-        images: ["/service-1.png"]
+        images: ["/images/process-brief.jpg"]
     },
     {
         title: "02. Development & Sampling",
         description: "Our team develops samples according to your specifications for review and approval. This stage validates sizing, fit, materials, and finishing, with efficient iterations until the sample matches exactly what you need for production.",
         layout: "double" as const,
-        images: ["/service-2.png", "/process/fabric_sourcing.png"]
+        images: ["/images/process-sampling-a.jpg", "/images/process-sampling-b.jpg"]
     },
     {
         title: "03. Production",
         description: "Once your sample is approved, manufacturing begins under controlled production processes. Skilled operators and organized production lines keep quality and consistency intact from the first unit to the last across every product category.",
         layout: "single" as const,
-        images: ["/factory1.jpg"]
+        images: ["/images/factory1.jpg"]
     },
     {
         title: "04. Quality Control",
         description: "Products undergo quality checks throughout production and before final dispatch. Material inspection, workmanship checks, measurement verification, and final audits ensure every product meets your specifications and our standards.",
         layout: "double" as const,
-        images: ["/process/6A.jpg", "/process/6B.png"]
+        images: ["/images/process-qc-a.jpg", "/images/process-qc-b.jpg"]
     },
     {
         title: "05. Packaging",
         description: "Products are packed according to your requirements, including customized packaging where requested. Every order is labeled, protected, and prepared to represent your brand and arrive export-ready.",
         layout: "single" as const,
-        images: ["/process/7.png"]
+        images: ["/images/process-packing.jpg"]
     },
     {
         title: "06. Ready for Global Delivery",
         description: "Finished orders are prepared for shipment to international customers and markets. From our manufacturing facility to markets around the world, your products are ready to move.",
         layout: "single" as const,
-        images: ["/factory3.jpg"]
+        images: ["/images/factory3.jpg"]
     }
 ];
 

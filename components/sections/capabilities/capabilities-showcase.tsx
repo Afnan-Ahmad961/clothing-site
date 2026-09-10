@@ -8,7 +8,7 @@ const capabilities = [
     title: "Workwear",
     description:
       "Industrial uniforms, work jackets, trousers, coveralls, and utility clothing built for demanding environments. From high-visibility and safety workwear to corporate and fully customized uniforms, we manufacture durable, professional workwear to your specifications.",
-    image: "/capabilities1.jpg",
+    image: "/images/capabilities1.jpg",
     imagePosition: "right" as const,
     aspectRatio: "aspect-square",
     textColSpan: "lg:col-span-3",
@@ -19,7 +19,7 @@ const capabilities = [
     title: "Protective & Work Gloves",
     description:
       "Specialist glove manufacturing across general-purpose, coated, and heavy-duty ranges — latex, PU, and nitrile-coated, cut-resistant, impact, mechanic, leather, welding, chemical-resistant, winter, and tactical gloves engineered for grip, durability, and protection.",
-    image: "/capabilities2.jpg",
+    image: "/images/capabilities2.jpg",
     imagePosition: "left" as const,
     aspectRatio: "aspect-video",
     textColSpan: "lg:col-span-1",
@@ -30,7 +30,7 @@ const capabilities = [
     title: "Sportswear",
     description:
       "Sports jerseys, training sets, tracksuits, performance tops, shorts, and compression wear produced with technical fabrics and consistent fit. From gym wear and teamwear to running and cycling apparel, we deliver custom sports uniforms for teams and brands.",
-    image: "/capabilities3.jpg",
+    image: "/images/capabilities3.jpg",
     imagePosition: "right" as const,
     aspectRatio: "aspect-square",
     textColSpan: "lg:col-span-3",
@@ -41,7 +41,7 @@ const capabilities = [
     title: "Fashion Apparel",
     description:
       "Premium fashion and casualwear — t-shirts, hoodies, sweatshirts, joggers, polos, jackets, varsity jackets, and streetwear. Clean construction, accurate colour matching, and brand-ready finishing for custom fashion collections at scale.",
-    image: "/service-2.png",
+    image: "/images/capabilities-fashion.jpg",
     imagePosition: "left" as const,
     aspectRatio: "aspect-video",
     textColSpan: "lg:col-span-1",

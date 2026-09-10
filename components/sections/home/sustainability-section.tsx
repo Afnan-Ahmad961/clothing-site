@@ -80,7 +80,7 @@ export default function SustainabilitySection() {
             {/* Inner container centers the image with green padding above and below */}
             <div className="relative w-full h-[60%] sm:h-[65%]">
               <Image
-                src="/sustainability-image.avif"
+                src="/images/sustainability.jpg"
                 alt="Sustainable Plant Growth"
                 fill
                 className="object-cover"

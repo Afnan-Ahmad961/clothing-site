@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
 import { WhatsAppButton } from "@/components/layout/whatsapp-button";
 
 const inter = Inter({
@@ -51,6 +52,7 @@ export default function RootLayout({
         >
           <Header />
           {children}
+          <Footer />
           <WhatsAppButton />
         </ThemeProvider>
       </body>

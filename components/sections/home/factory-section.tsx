@@ -72,14 +72,14 @@ export default function FactorySection() {
       className="relative w-full md:min-h-[80vh] flex items-center justify-center overflow-hidden bg-background py-32"
     >
       {/* Container for the images to keep them centered and clustered initially */}
-      <div className="relative w-[50vw] max-w-[600px] aspect-[16/10]">
+      <div className="relative w-[78vw] max-w-[600px] aspect-[16/10] sm:w-[62vw] md:w-[50vw]">
         {/* Left Image */}
         <div
           ref={leftImageRef}
           className="absolute inset-0 z-10 shadow-2xl"
         >
           <Image
-            src="/factory1.jpg"
+            src="/images/factory1.jpg"
             alt="Factory Process 1"
             fill
             className="object-cover rounded-md"
@@ -92,7 +92,7 @@ export default function FactorySection() {
           className="absolute inset-0 z-10 shadow-2xl"
         >
           <Image
-            src="/factory3.jpg"
+            src="/images/factory3.jpg"
             alt="Factory Process 3"
             fill
             className="object-cover rounded-md"
@@ -105,7 +105,7 @@ export default function FactorySection() {
           className="absolute inset-0 z-20 shadow-2xl"
         >
           <Image
-            src="/factory2.jpg"
+            src="/images/factory2.jpg"
             alt="Factory Process 2"
             fill
             className="object-cover rounded-md"

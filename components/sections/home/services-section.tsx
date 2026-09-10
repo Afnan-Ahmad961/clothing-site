@@ -8,28 +8,28 @@ const services = [
     title: "Multi-Category Manufacturing",
     description:
       "Source workwear, sportswear, protective gloves, uniforms, and fashion apparel from one trusted manufacturing partner — with the same standards applied across every product line.",
-    image: "/service-1.png",
+    image: "/images/product-range.png",
     icon: Box,
   },
   {
     title: "Custom & Private Label Production",
     description:
       "OEM, ODM, and private-label manufacturing tailored to your designs, fabrics, colours, sizing, branding, and packaging — from custom logos and embroidery to screen printing and woven labels.",
-    image: "/service-2.png",
+    image: "/images/product-lifestyle.png",
     icon: Palette,
   },
   {
     title: "Scalable Production Capacity",
     description:
       "Efficient, controlled production processes designed to serve growing brands and established businesses alike, delivering strong value for buyers across international markets.",
-    image: "/service-3.png",
+    image: "/images/service-3.png",
     icon: TrendingUp,
   },
   {
     title: "Strict Quality Control",
     description:
       "Every product moves through material inspection, production monitoring, measurement checks, and final inspection to ensure it meets your specifications and represents your brand with confidence.",
-    image: "/service-4.png",
+    image: "/images/service-4.png",
     icon: CheckCircle,
   },
 ];
